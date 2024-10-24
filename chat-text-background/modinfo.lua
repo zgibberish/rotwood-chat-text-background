@@ -1,7 +1,7 @@
 name = "Chat Text Background"
 description = "Adds a transparent dark background behind chat text for better readability."
 author = "gibberish"
-version = "1.0"
+version = "2.0"
 api_version = 10
 
 dst_compatible = false
@@ -10,6 +10,7 @@ gorge_compatible = false
 dont_starve_compatible = false
 reign_of_giants_compatible = false
 shipwrecked_compatible = false
+rotwood_compatible = true
 
 client_only_mod = true
 all_clients_require_mod = false
