@@ -1,19 +1,6 @@
 local Image = require "widgets.image"
 
-local bg_opacity_tbl = {
-    [1] = 0,
-    [2] = 0.1,
-    [3] = 0.2,
-    [4] = 0.3,
-    [5] = 0.4,
-    [6] = 0.5,
-    [7] = 0.6,
-    [8] = 0.7,
-    [9] = 0.8,
-    [10] = 0.9,
-    [11] = 1,
-}
-local bg_opacity = bg_opacity_tbl[GetModConfigData("bg_opacity", true)]
+local bg_opacity = GetModConfigData("bg_opacity")
 
 AddClassPostConstruct("screens.playerhud", function(self)
     self.chat_history_background = self.chat_history_label:AddChild(Image("images/global/square.tex"))
