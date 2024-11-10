@@ -2,7 +2,7 @@ local Image = require "widgets.image"
 local lume = require "util.lume"
 
 local BG_OPACITY = GetModConfigData("bg_opacity")
-local SCROLLABLE_CHAT_MOD_ENABLED = GLOBAL.KnownModIndex:IsModEnabledAny("scrollable-chat")
+local SCROLLABLE_CHAT_MOD_ENABLED = GLOBAL.KnownModIndex:IsModEnabledAny("rotwood-scrollable-chat")
 local LINE_HEIGHT = 60
 local PADDING = 40
 
