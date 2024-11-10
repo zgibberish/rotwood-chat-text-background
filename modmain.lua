@@ -50,7 +50,7 @@ AddClassPostConstruct("screens.playerhud", function(self)
         local x1, y1, x2, y2 = self.chat_history_label:GetBoundingBox()
         local w, h = 0, 0
         if SCROLLABLE_CHAT_MOD_ENABLED then
-            w, h = x2 - x1, LINE_HEIGHT * math.min(self.chat_history_label:GetLines(), self.chat_history_label.chat_lines_shown)
+            w, h = x2 - x1, LINE_HEIGHT * math.min(self.chat_history_label:GetLines(), self.chat_history_label.max_lines_shown)
         else
             w, h = x2 - x1, y2 - y1
         end
