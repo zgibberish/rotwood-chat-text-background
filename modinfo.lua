@@ -1,8 +1,9 @@
 name = "Chat Text Background"
 description = "Adds a transparent dark background behind chat text for better readability."
 author = "gibberish"
-version = "2.0"
+version = "2.1"
 api_version = 10
+priority = -1
 
 dst_compatible = false
 forge_compatible = false
